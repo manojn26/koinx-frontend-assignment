@@ -1,0 +1,49 @@
+.navbar-main-container {
+  /* background: turquoise; */
+  height: 3.5rem;
+  background: white;
+}
+
+.navbar-main-container-items {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.navbar-logo-image {
+  width: 8rem;
+  height: 1.5rem;
+  background-position: center;
+}
+
+.navbar-menu-options {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.navbar-menu-options button {
+  margin-top: -10px;
+}
+
+.navbar-menu-options {
+  display: flex;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-menu-options-for-small-screen {
+    display: block;
+  }
+  .navbar-menu-options {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar-menu-options-for-small-screen {
+    display: none;
+  }
+  .navbar-menu-options {
+    display: flex;
+  }
+}
